@@ -104,7 +104,7 @@ if (!binding.hasVariable('sonarqubeEnabledExpression')) {
 }
 if (!binding.hasVariable('sonarqubeWhenExpression')) {
   binding.setVariable('sonarqubeWhenExpression', {
-    return ao.defaultSonarqubeWhenExpression(binding.getVariable('sonarqubeEnabledExpression'))
+    return ao.defaultSonarqubeWhenExpression(sonarqubeEnabledExpression)
   })
 }
 
