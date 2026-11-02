@@ -2906,7 +2906,7 @@ along with ao-oss-parent.  If not, see <https://www.gnu.org/licenses/>.
                   <location>${project.build.directory}/offlineLinks/com/aoapps/javadoc/offline/com.sun.mail/javax.mail</location>
                 </offlineLink>
                 <offlineLink>
-                  <url>https://ostermiller.org/utils/doc/</url>
+                  <url>https://utils.ostermiller.org/doc/</url>
                   <location>${project.build.directory}/offlineLinks/com/aoapps/javadoc/offline/org.ostermiller/utils</location>
                 </offlineLink>
               </offlineLinks>
